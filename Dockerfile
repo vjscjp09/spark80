@@ -1,4 +1,4 @@
-FROM node:5.0.0-slim
+FROM node:5.0.0
 EXPOSE 3000
 WORKDIR /app
 COPY . /app
